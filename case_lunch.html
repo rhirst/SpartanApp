@@ -24,33 +24,31 @@
   
   <i class="fa fa-cog fa-lg"></i>
   
-    <div class="collapse navbar-collapse" id="dining-halls">
-      <ul class="nav navbar-nav">
-       <li class="dropdown">
-          <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dining Hall <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="shaw_breakfast.html">Shaw</a></li>
-            <li><a href="case_lunch.html">Case</a></li>
-            <li><a href="brody_dinner.html">Brody</a></li>
-            <li><a href="gallery_late.html">The Gallery</a></li>
-          </ul>
-        </li>
-      </ul>
-      </div>
-    
-      <div class="collapse navbar-collapse" id="dining-hours">
-      <ul class="nav navbar-nav">
-       <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Meal <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="shaw_breakfast.html">Breakfast</a></li>
-            <li><a href="case_lunch.html">Lunch</a></li>
-            <li><a href="brody_dinner.html">Dinner</a></li>
-            <li><a href="gallery_late.html">Late Night</a></li>
-           </ul>
-        </li>
-      </ul>
-      </div>
+    <div class="dropdown" id="DiningHall">
+         <button class="btn btn-default dropdown-toggle" type="button" id="dining-halls" data-toggle="dropdown" aria-expanded="true">
+           Dining Halls
+           <span class="caret"></span>
+         </button>
+         <ul class="dropdown-menu" role="menu" aria-labelledby="dining-halls">
+           <li><a href="#">Shaw</a></li>
+           <li><a href="#">Case</a></li>
+           <li><a href="#">Brody</a></li>
+           <li><a href="#">The Gallery</a></li>
+         </ul>
+       </div>
+
+       <div class="dropdown" id="DiningHours">
+         <button class="btn btn-default dropdown-toggle" type="button" id="dining-hours" data-toggle="dropdown" aria-expanded="true">
+           Meal Time
+           <span class="caret"></span>
+         </button>
+         <ul class="dropdown-menu" role="menu" aria-labelledby="dining-hours">
+           <li><a href="shaw_breakfast.html">Breakfast</a></li>
+           <li><a href="case_lunch.html">Lunch</a></li>
+           <li><a href="brody_dinner.html">Dinner</a></li>
+           <li><a href="gallery_late.html">Late Night</a></li>
+         </ul>
+       </div>
       
       <h1> Case Hall Lunch 11-2PM </h1>
   
