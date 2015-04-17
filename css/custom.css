@@ -180,7 +180,21 @@ left: 2px;
 
 }
 
+.bs-example {
+
+	position: absolute;
+	top: 50px;
+	left: 50px;
+
+}
+
+.panel-body  {
+
+	color: black ;
+}
 
 
+.panel-title {
 
-
+	color: black;
+}

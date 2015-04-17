@@ -24,31 +24,47 @@
   
     <i class="fa fa-cog fa-lg"></i>
 
-   <div class="dropdown" id="DiningHall">
-     <button class="btn btn-default dropdown-toggle" type="button" id="dining-halls" data-toggle="dropdown" aria-expanded="true">
-       Dining Halls
-       <span class="caret"></span>
-     </button>
-     <ul class="dropdown-menu" role="menu" aria-labelledby="dining-halls">
-       <li><a href="#">Shaw</a></li>
-       <li><a href="#">Case</a></li>
-       <li><a href="#">Brody</a></li>
-       <li><a href="#">The Gallery</a></li>
-     </ul>
-   </div>
-
-   <div class="dropdown" id="DiningHours">
-     <button class="btn btn-default dropdown-toggle" type="button" id="dining-hours" data-toggle="dropdown" aria-expanded="true">
-       Meal Time
-       <span class="caret"></span>
-     </button>
-     <ul class="dropdown-menu" role="menu" aria-labelledby="dining-hours">
-       <li><a href="shaw_breakfast.html">Breakfast</a></li>
-       <li><a href="case_lunch.html">Lunch</a></li>
-       <li><a href="brody_dinner.html">Dinner</a></li>
-       <li><a href="gallery_late.html">Late Night</a></li>
-     </ul>
-   </div>
+   
+    <div class="bs-example">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Ski Club Meeting </a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <p>8 PM on 4/17 at Wells Hall room C-215</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Charity Car Wash</a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>1 PM Saturday 4/18 at the Breslin Center parking lot.</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Soccer Practice</a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>3 PM Sunday 4/18 at Munn Field</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
     <div id="bottom-nav">
       <ul>
