@@ -34,7 +34,7 @@ width: 100vw;
 
 	background-color: black;
 	color: #58FAF4;
-	width: 100%;
+	width: 100vw;
 	height: 5em;
 	
 	position: fixed;
@@ -178,6 +178,14 @@ left: 2px;
 	width: 100%;
 	height: 3em;
 
+}
+
+#CampusMap {
+	padding-left: 0px;
+	margin-left: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 
 
