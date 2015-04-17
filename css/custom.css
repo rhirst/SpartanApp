@@ -101,16 +101,15 @@ text-decoration: none;
 .menu {
 
 
-position: absolute; 
-bottom: 150px;
+display: block; 
+
 
 }
 
 
 h3 {
 
-position: absolute;
-left: 75px;
+
 bottom: 120px;
 
 
@@ -119,8 +118,6 @@ bottom: 120px;
 
 h1 {
 
-position: absolute;
-top: 110px;
 font-size: 150%;
 
 }
