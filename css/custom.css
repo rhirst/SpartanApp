@@ -178,7 +178,7 @@ left: 2px;
 
 }
 
-<<<<<<< HEAD
+
 #CampusMap {
 	padding-left: 0px;
 	margin-left: 0px;
@@ -188,7 +188,7 @@ left: 2px;
 	left: 0px;
 }
 
-=======
+
 #settingsone {
 	padding-top: 5em;
 	padding-left: 15vw;
@@ -307,3 +307,18 @@ h6, h7 {
 	font-size: 150%;
 }
 
+#banner {
+	position: absolute;
+	display: inline-block;
+	
+	top: 0;
+	left: 0;
+	height: auto;
+	max-width: 100%;
+}
+
+#login_form{
+	display: inline-block;
+	margin-top: 10em;
+	padding: 3em;
+}

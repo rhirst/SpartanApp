@@ -20,52 +20,22 @@
       <![endif]-->
     </head>
     <body>
-
-       <div class="specialpopup">
-          <div class="alert alert-warning alert-dismissible" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <strong>Hi Andrew</strong> You have a doctor's appointment at 4 pm!.
-          </div>
+      <img src="img/SpartanApp.png" id="banner">
+      <form role="form" action="menu.html" id="login_form">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email">
         </div>
-
-      <div class="col-md-4" id="app-body">
-        <div class="cogsettings">
-        <a href="settings.html"><i id="cog" class="fa fa-cog fa-2x"></i></a>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd">
         </div>
-         <div id="menu_select" class="form-group">
-           <form>
-             <select id="dining_hall" class="form-control menu_form">
-               <option value="0">Shaw</option>
-               <option value="1">Case</option>
-               <option value="2">Brody</option>
-               <option value="3">The Gallery</option>
-             </select>
-             <select id="meal_time" class="form-control menu_form">
-               <option value="0">Breakfast</option>
-               <option value="1">Lunch</option>
-               <option value="2">Dinner</option>
-               <option value="3">Late Night</option>
-             </select>
-             <button type ="button" onclick="display_menu()" class="btn btn-default menu_form">Get Menu</button>
-           </form>
-           </div>
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
 
-          <div class="menu" > 
-             <h6 id ="hall_name"></h6>
-             <h7 class="firststation" id="station_name"></h7>
-             <ul id="food">
-             </ul>
-          </div> 
-
-       <div id="bottom-nav">
-        <ul>
-          <li><a href='events.html'>Events</a></li>
-          <li><a href='index.html'>Menu</a></li>
-          <li><a href="map.html">Maps</a></li>
-          <li><a href="planner.html">Planner</a></li>
-        </ul>
-      </div>
-    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
