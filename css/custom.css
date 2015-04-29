@@ -120,7 +120,7 @@ bottom: 120px;
 h1 {
 
 position: absolute;
-top: 110px;
+top: 150px;
 font-size: 150%;
 
 }
@@ -170,7 +170,6 @@ left: 2px;
 	
 	width: 100%;
 	height: 3em;
-	
 
 }
 
@@ -179,6 +178,35 @@ left: 2px;
 	height: 3em;
 
 }
+
+#settingsone {
+	padding-top: 5em;
+	padding-left: 15vw;
+	width: 70vw;
+}
+
+
+#settingstwo{
+	padding-top: 5em;
+	padding-left: 15vw;
+	width: 70vw;
+}
+
+#settingsonebutton {
+	width: 100%;
+	height: 3em;
+
+}
+
+#settingstwobutton {
+	
+	width: 100%;
+	height: 3em;
+	
+
+}
+
+
 
 .bs-example {
 
@@ -197,4 +225,45 @@ left: 2px;
 .panel-title {
 
 	color: black;
+}
+
+
+.cogsettings > a:link{
+
+	color: white;
+}
+
+.cogsettings > a:hover {
+	color: white;
+
+
+}
+
+
+.cogsettings > a:visited {
+
+
+color: white;
+}
+
+.cogsettings > a:active{
+	color: white;
+
+}
+
+
+.specialpopup{
+
+	text-align: center;
+
+
+	
+	
+}
+
+h5 {
+	position: absolute;
+	bottom: 90%;
+	left: 20%;
+	font-size: 150%;
 }
