@@ -322,3 +322,7 @@ h6, h7 {
 	margin-top: 10em;
 	padding: 3em;
 }
+
+#app-body{
+	background-image: url("img/campusmap.PNG");
+}
