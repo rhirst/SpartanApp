@@ -99,12 +99,17 @@ text-decoration: none;
 }
 
 .menu {
+margin-top: 3em;
 
+ 
 
+<<<<<<< HEAD
 display: block; 
 padding-bottom: 10em;
 height: 60em;
 
+=======
+>>>>>>> d8c173d3deee273ce3d88d72a69c2f6ee402a87b
 
 }
 
@@ -112,7 +117,10 @@ height: 60em;
 h3 {
 
 
+<<<<<<< HEAD
 bottom: 120px;
+=======
+>>>>>>> d8c173d3deee273ce3d88d72a69c2f6ee402a87b
 
 
 }
@@ -121,10 +129,15 @@ bottom: 120px;
 h1 {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 position: absolute;
 top: 150px;
 >>>>>>> 1263c3260229ae8f2b90915252d245b8008725fb
+=======
+
+
+>>>>>>> d8c173d3deee273ce3d88d72a69c2f6ee402a87b
 font-size: 150%;
 
 }
@@ -283,3 +296,19 @@ h5 {
 	left: 20%;
 	font-size: 150%;
 }
+<<<<<<< HEAD
+=======
+
+#menu_select {
+	
+	padding-top: 3em;
+}
+
+.menu_form {
+	display: inline-block;
+	padding-right: 100px;
+	color: #000000;
+	width: 80%;
+	margin-bottom: 1em;
+}
+>>>>>>> d8c173d3deee273ce3d88d72a69c2f6ee402a87b
