@@ -100,16 +100,12 @@ text-decoration: none;
 
 .menu {
 margin-top: 3em;
+width: 90%;
 
- 
 
-<<<<<<< HEAD
 display: block; 
 padding-bottom: 10em;
 height: 60em;
-
-=======
->>>>>>> d8c173d3deee273ce3d88d72a69c2f6ee402a87b
 
 }
 
@@ -305,5 +301,9 @@ font-size: 150%;
 	color: #000000;
 	width: 80%;
 	margin-bottom: 1em;
+}
+
+h6, h7 {
+	font-size: 150%;
 }
 
