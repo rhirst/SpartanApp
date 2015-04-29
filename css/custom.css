@@ -248,7 +248,7 @@ left: 2px;
 
 
 }
->>>>>>> 1263c3260229ae8f2b90915252d245b8008725fb
+
 
 
 .cogsettings > a:visited {
@@ -325,4 +325,11 @@ h6, h7 {
 
 #app-body{
 	background-image: url("img/campusmap.PNG");
+}
+
+#schedule{
+	padding-top: 6em;
+	padding-left: 0;
+	margin-left: 0;
+	width: 100%;
 }

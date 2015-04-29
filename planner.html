@@ -22,12 +22,49 @@
   <body>
   <div class ="col-md-4" id="app-body">
   
-   <h2>Your class schedule</h2>
-   <div class="col-md-4" id="app-body">
+   <h2>My class schedule<br>April 29, 2015</h2>
         <div class="cogsettings">
         <a href="settings.html"><i id="cog" class="fa fa-cog fa-2x"></i></a>
         </div>
-     <img src="img/schedule.png">
+     <!--img src="img/schedule.png"-->
+     <div class="panel-group" id="schedule">
+         <div class="panel panel-default">
+             <div class="panel-heading">
+                 <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">CSE 101 </a>
+                 </h4>
+             </div>
+             <div id="collapseOne" class="panel-collapse collapse in">
+                 <div class="panel-body">
+                     <p>M,W,F  8:00 am to 8:50 am <br>Wells Hall room 100<br>Professor J. Smith</p>
+                 </div>
+             </div>
+         </div>
+         <div class="panel panel-default">
+             <div class="panel-heading">
+                 <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">TC 101</a>
+                 </h4>
+             </div>
+             <div id="collapseTwo" class="panel-collapse collapse">
+                 <div class="panel-body">
+                     <p>M,W  9:10 am to 10:40 am <br>Farrel Hall room 118<br>Professor B. Banner</p>
+                 </div>
+             </div>
+         </div>
+         <div class="panel panel-default">
+             <div class="panel-heading">
+                 <h4 class="panel-title">
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">TC 450</a>
+                 </h4>
+             </div>
+             <div id="collapseThree" class="panel-collapse collapse">
+                 <div class="panel-body">
+                     <p>W  12:40 pm to 4:30 pm <br>Brody Hall room G23<br>Professor S. Wyche</p>
+                 </div>
+             </div>
+         </div>
+     </div>
 
    <div id = "bottom-nav">
     <ul>
@@ -40,7 +77,7 @@
    
    </div>
      
-</div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
