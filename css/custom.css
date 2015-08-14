@@ -1,6 +1,6 @@
 body {
 
-background-color: #18453B;
+background-color: #fff;
 color: white;
 padding: 0px;
 margin: 0px;
@@ -10,9 +10,8 @@ margin: 0px;
 #app-body {
 
 background-color: #18453B;
-height: 100vh;
-width: 100vw;
-
+width: 100%;
+position: relative;
 
 }
 
@@ -34,11 +33,11 @@ width: 100vw;
 
 	background-color: black;
 	color: #58FAF4;
-	width: 100%;
+	width: 416px;
 	height: 5em;
 	
-	position: fixed;
-	bottom: 0;
+	position: absolute;
+	bottom: 0px;
 	left: 0;
 	
 	list-style:none;
@@ -53,7 +52,7 @@ width: 100vw;
 
 
 height: 100%;
-width: 100vw;
+width: 100%;
 padding: 0px;
 margin: 0px;
 bottom: 0;
@@ -152,22 +151,15 @@ left: 2px;
 
 }
 
-#DiningHall {
-	padding-top: 5em;
-	padding-left: 15vw;
-	width: 70vw;
+
+
+#meal_time {
+	width: 70%;
 }
 
-#DiningHours {
-	padding-top: 5em;
-	padding-left: 15vw;
-	width: 70vw;
-}
-
-#dining-halls {
+#dining_hall {
 	
-	width: 100%;
-	height: 3em;
+	width: 70%;
 
 }
 
@@ -267,14 +259,53 @@ h5 {
 }
 
 #menu_select {
-	
+	width: 300px;
+	padding: 0px;
 	padding-top: 3em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu_select option {
+	width: 300px;
 }
 
 .menu_form {
 	display: inline-block;
-	padding-right: 100px;
+	
 	color: #000000;
-	width: 80%;
 	margin-bottom: 1em;
+}
+
+#article {
+	display: block;
+	position: relative;
+	width: 420px;
+	height: 600px;
+	margin: 100px auto 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	padding: 0px;
+	background-color: #18453B
+}
+
+#banner {
+	width: 416px;
+	position: static;
+}
+
+#campus_map {
+	margin-top: 40px;
+	width: 380px;
+	height: 480px;
+	overflow: auto;
+}
+
+#campus_map img{
+	position: static;
+}
+
+#schedule {
+	margin-top: 100px;
 }
