@@ -170,16 +170,12 @@ left: 2px;
 }
 
 #settingsone {
-	padding-top: 5em;
-	padding-left: 15vw;
-	width: 70vw;
+	margin-top: 100px;
 }
 
 
 #settingstwo{
-	padding-top: 5em;
-	padding-left: 15vw;
-	width: 70vw;
+	margin-top: 100px;
 }
 
 #settingsonebutton {
@@ -308,4 +304,14 @@ h5 {
 
 #schedule {
 	margin-top: 100px;
+}
+
+#setting_dropdown {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+#login_form {
+	margin: 10px;
 }
